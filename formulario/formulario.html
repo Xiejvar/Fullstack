@@ -13,13 +13,13 @@
         <fieldset>
             <Legend>Club viejuner</Legend>
             <label for="Nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="Nombre">
+            <input type="text" id="Nombre" name="Nombre" tabindex="1">
             <hr>
             <label for="Apellidos">Apellidos:</label>
-            <input type="text" id="Apellidos" name="Apellidos">
+            <input type="text" id="Apellidos" name="Apellidos" tabindex="2">
             <hr>
             <label for="Date"> Fecha de nacimiento: </label>
-            <input type="date" name="date" id="Date">
+            <input type="date" name="date" id="Date" tabindex="3">
             <hr>
             <label for="Sexo">Sexo:</label>
             <ul>
@@ -30,7 +30,7 @@
                 <li> <input type="radio" id="Otro" name="Sexo" value="Otro">
                     <label for="Otro">Otro</label></li>
             </ul>
-            <input type="checkbox" id="viejuner" name="viejuner" required>
+            <input type="checkbox" id="viejuner" name="viejuner" required tabindex="4">
             <label for="viejuner">Me siento viejuner</label>
             <hr>
             <label for="about">escribe algo sobre ti</label>
@@ -113,6 +113,8 @@
                 <option value="argon">
             </datalist>
         </fieldset>
+        <input type="submit">
+        <input type="reset">
     </form>
 </body>
 
