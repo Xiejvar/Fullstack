@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(27, 219, 233);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 4px 4px 4px rgb(209, 27, 27);
+}
+
+.link {
+    text-align: center;
+}
+
+.bloque {
+    font-size: xx-large;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.bloque:hover {
+    background-color: slategray;
+}
+
+.bloque:checked {
+    background-color: slategray;
+}
+
+input {
+    display: none;
+}
+
+.botonazo{
+   text-align: center;
+}
+
+@media (min-width: 768px) {
+    .pre1{
+        position: relative;
+        top: 50px ;
+        bottom: 0 ;
+        right: 0 ;
+        left: -200px ;
+    }
+    .pre2{
+        position: relative;
+        top: 70px;
+        bottom: 0 ;
+        right:0 ;
+        left: 200px ;
+    }
+    .pre3{
+        position: relative;
+        top: 150px;
+        bottom: 0 ;
+        right:0 ;
+        left: -200px ;
+    }
+    .pre4{
+        position: relative;
+        top: 200px;
+        bottom: 0 ;
+        right:0 ;
+        left: 200px ;
+    }
+    .link{
+        position: relative;
+        top: 300px;
+        bottom: 0 ;
+        right:0 ;
+        left: 0 ;
+    }
+    .link2{
+        position: relative;
+        top: 0px;
+        bottom: 0 ;
+        right:0 ;
+        left: 300px ;
+    }
+    .botonazo{
+        position: relative;
+        top: 270px;
+        bottom: 0 ;
+        right:0 ;
+        left: 0px ;
+    }
+    }
+    
